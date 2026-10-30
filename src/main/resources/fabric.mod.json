@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "auctionsniper",
+  "version": "${version}",
+  "name": "Auction Sniper",
+  "description": "Erkennt guenstige Auktionshaus-Angebote und meldet sie. Kein Auto-Buy.",
+  "authors": ["JokingSheet"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.auctionsniper.AuctionSniperMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
